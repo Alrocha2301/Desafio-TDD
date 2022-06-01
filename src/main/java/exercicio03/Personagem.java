@@ -20,6 +20,10 @@ public class Personagem {
         this.level = level;
     }
 
+    public Personagem() {
+
+    }
+
     public String getNome() {
         return nome;
     }
