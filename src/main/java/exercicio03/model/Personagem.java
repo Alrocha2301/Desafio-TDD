@@ -1,4 +1,4 @@
-package exercicio03;
+package exercicio03.model;
 
 public class Personagem {
 
@@ -21,7 +21,6 @@ public class Personagem {
     }
 
     public Personagem() {
-
     }
 
     public String getNome() {
@@ -79,4 +78,11 @@ public class Personagem {
     public void setLevel(int level) {
         this.level = level;
     }
+
+    public void mostrarPersonagem() {
+        System.out.println("Nome: " + getNome() + " - Level: " + getLevel() + " - Atributos:\n\tForça: " + getForca() + "\tInteligência: " +
+                getInteligencia() + "\tVida: " + getVida() + "\tMana: " + getMana());
+    }
+
+
 }
