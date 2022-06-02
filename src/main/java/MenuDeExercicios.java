@@ -27,8 +27,6 @@ public class MenuDeExercicios extends InputMismatchException {
                 while (opcao != 0) {
                     System.out.print("\nDigite o número correspondente ao exercício desejado: ");
                     opcao = scan.nextInt();
-
-//                while (opcao != 0) {
                     switch (opcao) {
                         case 1 -> Exercicio01.main(args);
                         case 2 -> Exercicio02.main(args);
@@ -39,8 +37,6 @@ public class MenuDeExercicios extends InputMismatchException {
 
                         default -> System.out.println("Opção Inválida!");
                     }
-                    /*System.out.print("\nDigite o número correspondente ao exercício desejado99999: ");
-                    opcao = scan.nextInt();*/
                 }
             } catch (InputMismatchException e) {
                 System.out.print("Opção Inválida! Execute novamente o menu!");
