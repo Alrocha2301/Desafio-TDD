@@ -7,7 +7,7 @@ import exercicio02.model.VideoGame;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainExercicio02 {
+public class Exercicio02 {
     public static void main(String[] args) {
         Livro l1 = new Livro("Harry Potter", 40d, 50, "J. K. Rowling", "fantasia", 300);
         Livro l2 = new Livro("Senhor dos Anéis", 60d, 30, "J. R. R. Tolkien", "fantasia", 500);

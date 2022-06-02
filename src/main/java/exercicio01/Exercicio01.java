@@ -1,6 +1,6 @@
 package exercicio01;
 
-public class MainExercicio01 {
+public class Exercicio01 {
     public static void main(String[] args) {
 
         Veiculo veiculo = new Veiculo();

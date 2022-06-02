@@ -6,7 +6,7 @@ import exercicio03.model.Mago;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainExercicio03 {
+public class Exercicio03 {
     public static void main(String[] args) {
         List<String> magias = new ArrayList<>();
         magias.add("cura");
