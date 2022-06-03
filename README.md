@@ -20,6 +20,8 @@ Para maior celeridade na execução dos exercícios, os Objetos de cada classe e
 
 #### Exceeds
 
+Desafio retirado da plataforma DojoPuzzles.
+
 Sua tarefa é processar uma seqüência de números inteiros para determinar as seguintes estatísticas:
 
         Valor mínimo
