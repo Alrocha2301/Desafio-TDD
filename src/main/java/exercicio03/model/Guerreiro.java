@@ -2,7 +2,6 @@ package exercicio03.model;
 
 import exercicio03.interfaces.Acoes;
 
-import javax.accessibility.AccessibleComponent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -20,6 +19,7 @@ public class Guerreiro extends Personagem implements Acoes {
     }
 
     public Guerreiro() {
+        this.CONTADOR_GUERREIRO++;
     }
 
     public List<String> getHabilidades() {
@@ -38,7 +38,6 @@ public class Guerreiro extends Personagem implements Acoes {
         setMana(getMana() + getLevel());
         setInteligencia(getInteligencia() + getLevel()) ;
     }
-
 
     public void aprenderHabilidade(String habilidade) {
         habilidades.add(habilidade);

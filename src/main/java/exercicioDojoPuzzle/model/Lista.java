@@ -1,7 +1,5 @@
 package exercicioDojoPuzzle.model;
 
-import java.util.Random;
-
 public class Lista {
 
     int[] lista;

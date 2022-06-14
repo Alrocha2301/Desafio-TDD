@@ -12,12 +12,13 @@ public class Mago extends Personagem implements Acoes {
     static int CONTADOR_MAGO = 0;
 
     public Mago() {
+        this.CONTADOR_MAGO++;
     }
 
     public Mago(String nome, int vida, int mana, Double xp, int inteligencia, int forca, int level, List<String> magias) {
         super(nome, vida, mana, xp, inteligencia, forca, level);
         this.magias = magias;
-        CONTADOR_MAGO++;
+        this.CONTADOR_MAGO++;
     }
 
     public List<String> getMagias() {

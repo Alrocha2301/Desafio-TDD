@@ -33,15 +33,17 @@ public class MenuDeExercicios extends InputMismatchException {
                         case 3 -> Exercicio03.main(args);
                         case 4 -> Exercicio04.main(args);
                         case 5 -> ExercicioDojoPuzzles.main(args);
-                        case 0 -> System.out.println("Encerrando...");
-
+                        case 0 -> {
+                            System.out.println("Encerrando...");
+                            rodando = false;
+                        }
                         default -> System.out.println("Opção Inválida!");
                     }
                 }
             } catch (InputMismatchException e) {
                 System.out.print("Opção Inválida! Execute novamente o menu!");
+                scan.nextLine();
             }
-            rodando = false;
         }
     }
 }
